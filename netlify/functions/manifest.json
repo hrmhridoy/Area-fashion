@@ -1,0 +1,12 @@
+[
+  {
+    "function": "create-order",
+    "pattern": "/api/orders/create",
+    "method": "POST"
+  },
+  {
+    "function": "stripe-webhook",
+    "pattern": "/api/webhooks/stripe",
+    "method": "POST"
+  }
+]

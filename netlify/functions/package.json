@@ -1,0 +1,9 @@
+{
+  "name": "aria-netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Aria Fashion serverless backend",
+  "functions": {
+    "create-order": "netlify/functions/create-order.ts",
+    "stripe-webhook": "netlify/functions/stripe-webhook.ts"
+  }
+}

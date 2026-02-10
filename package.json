@@ -1,0 +1,61 @@
+{
+  "name": "aria-fashion-ecommerce",
+  "version": "1.0.0",
+  "description": "Modern Jamstack fashion e-commerce platform with headless architecture",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,md,json}\"",
+    "type-check:watch": "tsc --noEmit --watch",
+    "netlify": "netlify dev",
+    "netlify:build": "npm run build",
+    "deploy:netlify": "npm run build && netlify deploy --prod"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@stripe/react-stripe-js": "^2.7.0",
+    "@stripe/stripe-js": "^3.1.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.6.5",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "framer-motion": "^10.16.13",
+    "next": "^14.1.0",
+    "next-auth": "^4.24.1",
+    "next-image-export-optimizer": "^1.19.0",
+    "next-seo": "^6.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.0",
+    "react-icons": "^4.12.0",
+    "react-hot-toast": "^2.4.1",
+    "swr": "^2.2.4",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "typescript-eslint": "^6.15.0"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
